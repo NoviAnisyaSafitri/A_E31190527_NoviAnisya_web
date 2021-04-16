@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/Modul10/CI/';
+$config['base_url'] = 'http://localhost/Modul10/CI/'; //untuk memanggil template yang ada di dalam file
 
 /*
 |--------------------------------------------------------------------------

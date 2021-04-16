@@ -18,15 +18,20 @@
 		<tbody>
 		<?php $no = 1;
 			  foreach($user as $baris){
+			// <!--deklarasi $no dimulai dari 1 dan membuat perulangan $user dari controller diubah menjadi $baris, 
+			// agar dapat memanggil kumpulan data pada database-->
 		?>
 		<tr><td><?php echo $no++ ?></td>
 			<td><?php echo $baris -> username; ?></td>
+			 <!--menampilkan kumpulan data username-->
 			<td><?php echo $baris -> grup; ?></td>
+			 <!--menampilkan kumpulan data grup-->
 			<td></td></tr>
 		<?php } ?>
 		</tbody>
 		</table>
 		<a href="<?php echo base_url('index.php/Mahasiswa/tambah')?>" class="btn btn-success btn-icon-split">
+		 <!--membuat tombol untuk mengarahkan ke function tambah yang berada pada controller Mahasiswa-->
 		<span class="text">Tambah Data</span>
 		</a>
 </div></div></div>
